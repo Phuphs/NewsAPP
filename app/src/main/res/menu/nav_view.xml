@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/countrySelector"
+    android:icon="@drawable/ic_flag"
+    android:title="Country Selector"
+    app:showAsAction="always">
+    <menu>
+        <item
+            android:id="@+id/india"
+            android:icon="@drawable/india"
+            android:title="India"
+            />
+        <item
+            android:id="@+id/usa"
+            android:icon="@drawable/usa"
+            android:title="USA"
+            />
+        <item
+            android:id="@+id/france"
+            android:icon="@drawable/fr"
+            android:title="France"
+            />
+        <item
+            android:id="@+id/russia"
+            android:icon="@drawable/ru"
+            android:title="Russia"
+            />
+        <item
+            android:id="@+id/australia"
+            android:icon="@drawable/au"
+            android:title="Australia"
+            />
+
+    </menu>
+    </item>
+</menu>
